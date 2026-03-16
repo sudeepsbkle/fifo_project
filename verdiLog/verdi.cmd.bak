@@ -1,0 +1,8 @@
+simSetSimulator "-vcssv" -exec "simv" -args
+debImport "-full64" "-dbdir" "simv.daidir"
+debLoadSimResult /mnt/workspace/users/sudeep_b/sud_fifo/fifo_tb.fsdb
+wvCreateWindow
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "318" "82" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debExit

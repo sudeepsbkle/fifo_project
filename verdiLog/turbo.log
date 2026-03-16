@@ -1,0 +1,4 @@
+Command Line: /mnt/workspace/tools/synopsys/verdi/X-2025.06-SP2/platform/LINUXAMD64/bin/Novas -full64 -ssf fifo_tb.fsdb -dbdir simv.daidir
+uname(Linux vlsilab.iitdh.ac.in 5.14.0-611.34.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Feb 7 05:10:41 EST 2026 x86_64)
+KdbImportParallelMixAllLib time 0.002973 0.000769 0.002980 delta 5808128 5808128 total 1084952576 1084952576
+KdbImportParallelMixAllLib time 0.001918 0.002569 0.000000 delta 4198400 4198400 total 1214578688 1214578688

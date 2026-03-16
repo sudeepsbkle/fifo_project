@@ -1,0 +1,176 @@
+0
+46
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/libvirsim.so /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/liberrorinf.so /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/libsnpsmalloc.so /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/include
+-Mxllcflags=
+-Xfile_begin_f=flist.f
+-Xfile_end
+-Xhdlxmropt
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/bin/vcs1fe
+compile.log
+../dut/fifo_m.sv
+../tb/fifo_if.sv
+../tb/tb_logger.sv
+../tb/transaction.sv
+../tb/generator.sv
+../tb/driver.sv
+../tb/monitor.sv
+../tb/scoreboard.sv
+../tb/environment.sv
+../tb/base_class.sv
+../tb/tc1_reset_only.sv
+../tb/tc2_write_when_empty.sv
+../tb/tc3_read_when_empty.sv
+../tb/tc4_write_until_full.sv
+../tb/tc5_write_when_full.sv
+../tb/fifo_test_suite.sv
+../tb/test.sv
+../tb/tb_top.sv
+97
+which_declare=declare -f
+__MODULES_SHARE_MANPATH=:1
+__MODULES_LMINIT=module use --append /usr/share/Modules/modulefiles:module use --append /etc/modulefiles:module use --append /usr/share/modulefiles
+XILINX_VIVADO=/mnt/workspace/tools/xilinx/2025.2/Vivado
+XILINX_VITIS=/mnt/workspace/tools/xilinx/2025.2/Vitis
+XILINX_HLS=/mnt/workspace/tools/xilinx/2025.2/Vitis
+XDG_SESSION_TYPE=tty
+XDG_SESSION_ID=1391
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1015
+XDG_DATA_DIRS=/mnt/workspace/users/sudeep_b/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VIRTUOSO_HOME=/mnt/workspace/tools/cadence/tools/dfII
+VERDI_HOME=/mnt/workspace/tools/synopsys/verdi/X-2025.06-SP2
+VCS_PYTHON3=/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/bin/Python3/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_INTERNAL_CONVERTEDLIBS=
+VCS_HOME=/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64
+SSH_TTY=/dev/pts/36
+SSH_CONNECTION=10.230.3.45 58005 10.240.60.32 22
+SSH_CLIENT=10.230.3.45 58005 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SPECTRE_HOME=/mnt/workspace/tools/cadence/SPECTRE251
+SNPS_VCS_PYTHON3=/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/bin/Python3/bin/python3
+SNPS_VCS_CLANG_PATH=/mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SNPS_INSTALLER=/mnt/workspace/tools/synopsys/snps_installer
+SG_HOME=/mnt/workspace/tools/synopsys/spyglass/X-2025.06-SP2/SPYGLASS_HOME
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RTL_ARCH=/mnt/workspace/tools/synopsys/rtla/X-2025.06-SP2
+RISCV_HOME=/mnt/workspace/tools/riscv/xpack-riscv-none-elf-gcc-15.2.0-1
+PT_HOME=/mnt/workspace/tools/synopsys/prime/X-2025.06-SP2-1
+PDK_VIRTUOSO=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/DesignEnv/VirtuosoOA
+PDK_SPECTRE=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/Models/Spectre
+PDK_ROOT=/mnt/workspace/tools/pdk/gf_130bcd
+PDK_PEX=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/PEX
+PDK_MODELS=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/Models
+PDK_LVS=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/LVS
+PDK_DRC=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/DRC
+PDK_DESIGN_ENV=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a/DesignEnv
+OVA_UUM=0
+OA_HOME=/mnt/workspace/tools/cadence/oa_v22.62.020
+MOTD_SHOWN=pam
+MODUS_HOME=/mnt/workspace/tools/cadence/MODUS251
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MGLS_LICENSE_FILE=1717@14.139.1.126
+MFLAGS=
+MATLABPATH=/mnt/workspace/tools/xilinx/2025.2/Vitis/functional_suite/lib/matlab/mex:/mnt/workspace/tools/xilinx/2025.2/Vitis/functional_suite/varray/matlab:/mnt/workspace/tools/xilinx/2025.2/Vitis/functional_suite/vfs/matlab:/mnt/workspace/tools/xilinx/2025.2/Vitis/functional_suite/vfs/matlab/src:/mnt/workspace/tools/xilinx/2025.2/Vitis/functional_suite/common/matlab:/mnt/workspace/tools/xilinx/2025.2/Vitis/functional_suite/hil/matlab
+MAKE_TERMOUT=/dev/pts/36
+MAKE_TERMERR=/dev/pts/36
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/mnt/workspace/tools/synopsys/lc/X-2025.06-SP1
+LC_ALL=en_US.UTF-8
+ICC2_HOME=/mnt/workspace/tools/synopsys/icc2/X-2025.06-SP2
+HISTCONTROL=ignoredups
+GF_PDK_HOME=/mnt/workspace/tools/pdk/gf_130bcd/V1.0_5.1a
+FM_HOME=/mnt/workspace/tools/synopsys/fm/X-2025.06-SP4
+FLEXLM_DIAGNOSTICS=3
+FC_HOME=/mnt/workspace/tools/synopsys/fusioncompiler/X-2025.06-SP2
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+DDI_HOME=/mnt/workspace/tools/cadence/DDI251
+DC_HOME=/mnt/workspace/tools/synopsys/syn/X-2025.06-SP4
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1015/bus
+CDS_SKIP_OS_CHECK_ON_STARTUP=1
+CDS_LIC_FILE=5280@14.139.1.126
+CDS_INST_DIR=/mnt/workspace/tools/cadence
+CADENCE_HOME=/mnt/workspace/tools/cadence
+BEOL_STACK=5M_4Mx_1Ox_SM
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  local _mlredir=1;_ if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then_ if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then_ _mlredir=0;_ else_ if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then_ _mlredir=1;_ fi;_ fi;_ fi;_ case " $@ " in _ *' --no-redirect '*)_ _mlredir=0_ ;;_ *' --redirect '*)_ _mlredir=1_ ;;_ esac;_ if [ $_mlredir -eq 0 ]; then_ _module_raw "$@";_ else_ _module_raw "$@" 2>&1;_ fi_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC_eda-tools-info%%=() {  echo "";_ echo "════════════════════════════════════════════════════════════════════";_ echo "              INSTALLED EDA TOOLS & ENVIRONMENT                     ";_ echo "════════════════════════════════════════════════════════════════════";_ echo "";_ echo -e "${BLUE}CADENCE TOOLS (Analog IC Design):${NC}";_ if command -v virtuoso &> /dev/null; then_ echo "  virtuoso          - Schematic/Layout Editor";_ echo "                      ($(virtuoso -version 2>&1 | head -1 || echo 'IC 25.10'))";_ else_ echo "  virtuoso          - Not found in PATH";_ fi;_ if command -v spectre &> /dev/null; then_ echo "  spectre           - Circuit Simulator";_ else_ echo "  spectre           - Not found in PATH (may be invoked from Virtuoso)";_ fi;_ echo "  assura/calibre    - DRC/LVS Verification";_ echo "  quantus/starrc    - Parasitic Extraction";_ echo "";_ echo -e "${BLUE}SYNOPSYS TOOLS (Digital Design & Verification):${NC}";_ if command -v vcs &> /dev/null; then_ echo "  vcs               - Verilog Simulator";_ echo "                      ($(vcs -ID 2>&1 | grep Version || echo 'X-2025.06'))";_ fi;_ if command -v verdi &> /dev/null; then_ echo "  verdi             - Waveform Viewer & Debug";_ fi;_ if command -v dc_shell &> /dev/null; then_ echo "  dc_shell          - Design Compiler (Synthesis)";_ fi;_ if command -v icc2_shell &> /dev/null; then_ echo "  icc2_shell        - Physical Design (P&R)";_ fi;_ if command -v pt_shell &> /dev/null; then_ echo "  pt_shell          - PrimeTime (STA)";_ fi;_ if command -v fm_shell &> /dev/null; then_ echo "  fm_shell          - Formality (Formal Verification)";_ fi;_ if command -v spyglass &> /dev/null; then_ echo "  spyglass          - Lint & CDC Analysis";_ fi;_ echo "";_ echo -e "${BLUE}XILINX TOOLS (Vivado / Vitis):${NC}";_ if command -v vivado &> /dev/null; then_ echo "  vivado            - Vivado Design Suite 2025.2";_ else_ echo "  vivado            - Not found in PATH";_ fi;_ if command -v vitis &> /dev/null; then_ echo "  vitis             - Vitis Unified Software Platform";_ fi;_ if command -v vitis_hls &> /dev/null; then_ echo "  vitis_hls         - High-Level Synthesis";_ fi;_ echo "";_ echo -e "${BLUE}PDK (Process Design Kit):${NC}";_ if [ -n "$GF_PDK_HOME" ]; then_ echo "  Technology        - GlobalFoundries 130nm BCD";_ echo "  Version           - V1.0_5.1a";_ echo "  BEOL Stack        - $BEOL_STACK";_ echo "  Location          - $GF_PDK_HOME";_ echo "  Models            - $PDK_SPECTRE";_ else_ echo "  PDK not configured";_ fi;_ echo "";_ echo "════════════════════════════════════════════════════════════════════";_ echo ""_}
+BASH_FUNC_eda-license-check%%=() {  echo "";_ echo "════════════════════════════════════════════════════════════════════";_ echo "              LICENSE SERVER CONNECTIVITY CHECK                     ";_ echo "════════════════════════════════════════════════════════════════════";_ echo "";_ echo -n "Cadence License (5280@14.139.1.126):    ";_ if timeout 2 bash -c "echo > /dev/tcp/14.139.1.126/5280" 2> /dev/null; then_ echo -e "${GREEN}✓ Connected${NC}";_ else_ echo -e "${RED}✗ Failed${NC}";_ fi;_ echo -n "Synopsys License (27020@14.139.1.126):  ";_ if timeout 2 bash -c "echo > /dev/tcp/14.139.1.126/27020" 2> /dev/null; then_ echo -e "${GREEN}✓ Connected${NC}";_ else_ echo -e "${RED}✗ Failed${NC}";_ fi;_ echo -n "Mentor License (1717@14.139.1.126):     ";_ if timeout 2 bash -c "echo > /dev/tcp/14.139.1.126/1717" 2> /dev/null; then_ echo -e "${GREEN}✓ Connected${NC}";_ else_ echo -e "${RED}✗ Failed${NC}";_ fi;_ echo -n "Xilinx License (49704@10.240.112.16):   ";_ if timeout 2 bash -c "echo > /dev/tcp/10.240.112.16/49704" 2> /dev/null; then_ echo -e "${GREEN}✓ Connected${NC}";_ else_ echo -e "${RED}✗ Failed${NC}";_ fi;_ echo "";_ echo "════════════════════════════════════════════════════════════════════";_ echo ""_}
+BASH_FUNC_eda-info%%=() {  eda-tools-info_}
+BASH_FUNC_eda-help%%=() {  echo "";_ echo "════════════════════════════════════════════════════════════════════";_ echo "                    QUICK TOOL REFERENCE                            ";_ echo "════════════════════════════════════════════════════════════════════";_ echo "";_ echo -e "${BLUE}ANALOG DESIGN (Cadence):${NC}";_ echo "  virtuoso &                    - Launch Virtuoso GUI";_ echo "  spectre <netlist.scs>         - Run Spectre simulation";_ echo "  viva <results.raw> &          - View waveforms";_ echo "";_ echo -e "${BLUE}DIGITAL SIMULATION (Synopsys):${NC}";_ echo "  vcs <files> -o simv           - Compile with VCS";_ echo "  ./simv                        - Run simulation";_ echo "  verdi &                       - Launch Verdi";_ echo "  verdi -ssf <file.fsdb> &      - View waveforms";_ echo "";_ echo -e "${BLUE}DIGITAL SYNTHESIS (Synopsys):${NC}";_ echo "  dc_shell                      - Launch Design Compiler";_ echo "  dc_shell -f script.tcl        - Run DC script";_ echo "";_ echo -e "${BLUE}PHYSICAL DESIGN (Synopsys):${NC}";_ echo "  icc2_shell                    - Launch ICC2";_ echo "  icc2_shell -f script.tcl      - Run ICC2 script";_ echo "";_ echo -e "${BLUE}TIMING ANALYSIS (Synopsys):${NC}";_ echo "  pt_shell                      - Launch PrimeTime";_ echo "";_ echo -e "${BLUE}XILINX TOOLS (Vivado / Vitis):${NC}";_ echo "  vivado &                      - Launch Vivado GUI";_ echo "  vivado -mode batch -source <script.tcl>  - Run Tcl script";_ echo "  vitis &                       - Launch Vitis IDE";_ echo "  vitis_hls &                   - Launch HLS GUI";_ echo "";_ echo -e "${BLUE}HELPER FUNCTIONS:${NC}";_ echo "  eda-tools-info                - Show all installed tools";_ echo "  eda-license-check             - Check license servers";_ echo "  eda-help                      - Show this help";_ echo "";_ echo "════════════════════════════════════════════════════════════════════";_ echo ""_}
+BASH_FUNC__module_raw%%=() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";_ _mlstatus=$?;_ return $_mlstatus_}
+ASSURA_HOME=/mnt/workspace/tools/cadence/ASSURA251
+0
+0
+20
+1764591403 /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/packages/snps_msv_nettype_pkg/AN.DB
+1773384959 ../tb/tb_top.sv
+1773401492 ../tb/test.sv
+1773383781 ../tb/fifo_test_suite.sv
+1773637268 ../tb/tc5_write_when_full.sv
+1773401114 ../tb/tc4_write_until_full.sv
+1773383285 ../tb/tc3_read_when_empty.sv
+1773382625 ../tb/tc2_write_when_empty.sv
+1773382599 ../tb/tc1_reset_only.sv
+1773378211 ../tb/base_class.sv
+1773383755 ../tb/environment.sv
+1773382100 ../tb/scoreboard.sv
+1773637924 ../tb/monitor.sv
+1773382068 ../tb/driver.sv
+1773381727 ../tb/generator.sv
+1773381711 ../tb/transaction.sv
+1773311388 ../tb/tb_logger.sv
+1773381682 ../tb/fifo_if.sv
+1773381570 ../dut/fifo_m.sv
+1773384515 flist.f
+4
+1764579420 /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/libvirsim.so
+1764576997 /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/liberrorinf.so
+1764576990 /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/libsnpsmalloc.so
+1764576977 /mnt/workspace/tools/synopsys/vcs/X-2025.06-SP2/linux64/lib/libvfs.so
+1773650377 simv.daidir
+-1 partitionlib
